@@ -6,9 +6,20 @@ body {
     font-family: $font-main;
 }
 
+section{
+
+    @media (max-width: $phone) {
+        padding: 0px 20px;
+    }
+}
+
 .container{
     max-width: 1170px;
     margin: 0 auto;
+
+    @media (max-width:$phone){
+        padding: 0px 20px;
+    }
 }
 
 .button{
